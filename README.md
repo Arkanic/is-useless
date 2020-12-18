@@ -30,7 +30,7 @@ Arkanic#3976 on discord
 ## Updates
 
 ### v1.1.0 (18/12/2020)
-Added amazing new features that installed more dependencies and slowed everything down without managing to achieved anything useful
+Added amazing new features that installed more dependencies and slowed everything down without managing to achieved anything useful (contributed by [ZestyLemonade](https://github.com/ZestyLemonade))
 
 ### v1.0.0
-Package created
+Package created (contributed by [Arkanic](https://github.com/Arkanic))
