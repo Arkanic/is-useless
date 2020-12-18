@@ -1,6 +1,6 @@
 {
   "name": "is-useless",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Package to reflect on the state of npm",
   "main": "index.js",
   "scripts": {
