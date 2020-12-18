@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Arkanic/is-useless/issues"
   },
-  "homepage": "https://github.com/Arkanic/is-useless#readme"
+  "homepage": "https://github.com/Arkanic/is-useless#readme",
+  "dependencies": {
+    "is-true": "^0.1.1"
+  }
 }
