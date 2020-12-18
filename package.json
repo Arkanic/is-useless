@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/Arkanic/is-useless#readme",
   "dependencies": {
-    "is-true": "^0.1.1"
+    "is-true": "^0.1.2"
   }
 }

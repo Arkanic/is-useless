@@ -31,6 +31,8 @@ Arkanic#3976 on discord
 
 ### v1.2.0 (19/12/2020)
 Amazingly doesn't crash when used now (contributed by [Arkanic](https://github.com/Arkanic))
+#### v1.2.1 (19/12/2020)
+Footnote: ZestyLemonade actually has no clue how to use is-true
 
 ### v1.1.0 (18/12/2020)
 Added amazing new features that installed more dependencies and slowed everything down without managing to achieved anything useful (contributed by [ZestyLemonade](https://github.com/sample-text-here))
