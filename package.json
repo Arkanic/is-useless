@@ -1,0 +1,24 @@
+{
+  "name": "is-useless",
+  "version": "1.0.0",
+  "description": "Package to reflect on the state of npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arkanic/is-useless.git"
+  },
+  "keywords": [
+    "is-useless",
+    "useless",
+    "meme"
+  ],
+  "author": "Arkanic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arkanic/is-useless/issues"
+  },
+  "homepage": "https://github.com/Arkanic/is-useless#readme"
+}
