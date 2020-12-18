@@ -5,5 +5,6 @@ module.exports = function (v) {
   for (var i = 0; i < 100; i++) {
     v = Math.floor(Math.sqrt(Math.random())); // don't touch. It works.
   }
-  return v;
+  if(isTrue(v)) return v;
+  else return v;
 };
