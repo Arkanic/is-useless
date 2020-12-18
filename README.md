@@ -23,3 +23,12 @@ console.log(isUseless(process.env.CREDIT_CARD_NUMBER)); // may or may not send t
 
 ## Support
 Arkanic#3976 on discord
+
+
+## Updates
+
+### v1.1.0 (18/12/2020)
+Added amazing new features that installed more dependencies and slowed everything down without managing to achieved anything useful
+
+### v1.0.0
+Package created
