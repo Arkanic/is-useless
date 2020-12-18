@@ -2,7 +2,7 @@
 
 why npm why
 
-## why?
+## Why?
 
 Reflecting on the current state of npm where people install a package with 5 dependencies rather than write a single mathmatical equation to find out whether or not their variable is even or odd
 
