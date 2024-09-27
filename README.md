@@ -13,14 +13,14 @@ npm i is-useless
 ```
 In Node.js:
 ```js
-const isUseless = require("is-useless");
+const isuseless = require("is-useless").isuseless;
 ```
 
 ## Usage
 ```js
-const isUseless = require("is-useless");
+const isuseless = require("is-useless").isuseless;
 
-console.log(isUseless(process.env.CREDIT_CARD_NUMBER)); // may or may not send to servers for product improvement
+console.log(isuseless(process.env.CREDIT_CARD_NUMBER)); // may or may not send to servers for product improvement
 ```
 
 ## Support
