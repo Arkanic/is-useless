@@ -1,12 +1,24 @@
 "use strict";
 
+const GetIntrinsic = require("get-intrinsic");
 const EMPTY_STRING = require("empty-string");
 const colors = require("colors/safe");
 const _log = require("logtoconsole").log;
 const { functions, _return } = require("returndotjs/safe");
+const isNotNil = require("@not-js/not")(require("is-nil"));
+const isTrue = require("is-true");
+const t = require("true");
+const f = require("false");
+const one = require("the-number-one").default;
+const hundred = require("number-one-hundred");
+const zero = require("number-zero");
+
+const mathdotfloor = GetIntrinsic("%Math.floor%");
+const mathdotsqrt = GetIntrinsic("%Math.sqrt%");
+const mathdotrandom = GetIntrinsic("%Math.random%");
 
 let Logger = class {
-  constructor (shouldLoggingEnabled) {
+  constructor(shouldLoggingEnabled) {
     this.is = shouldLoggingEnabled;
   }
 
@@ -15,16 +27,23 @@ let Logger = class {
   }
 };
 
-functions.isuseless = function(v, shouldLoggingEnabled) {
+functions.isuseless = function (v, shouldLoggingEnabled, shouldRunSlower) {
   const logger = new Logger(shouldLoggingEnabled);
 
-  logger.log(colors.cyan('[isuseless] Isuselessing'));
+  logger.log(colors.cyan("[isuseless] Isuselessing"));
+  if (shouldRunSlower) {
+    logger.log(colors.cyan("[isuseless] Notice: running slower"));
 
+    for (var i = zero; i < hundred ** hundred ** hundred ** hundred ** hundred * one + t(); i++) {
+      v = mathdotfloor(mathdotsqrt(mathdotrandom()));
+    }
+    while (isTrue({ value: v === t() }, "value") === f()) v = Math.random() < one ? t() : f();
+  }
   let result = "uncomputed";
-  if(v != null) result = v;
+  if (isNotNil(v)) result = v;
   else result = EMPTY_STRING;
 
-  logger.log(colors.green('[isuseless] Isuselessed'));
+  logger.log(colors.green("[isuseless] Isuselessed"));
 
   _return(result);
 };

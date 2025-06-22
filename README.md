@@ -23,11 +23,41 @@ const isuseless = require("is-useless").isuseless;
 console.log(isuseless(process.env.CREDIT_CARD_NUMBER)); // may or may not send to servers for product improvement
 ```
 
+You can also enable some useful logs with the second paremeter
+
+```js
+
+const isuseless = require("is-useless").isuseless;
+
+console.log(isuseless(process.env.CREDIT_CARD_NUMBER, true)); // outputs some extremely useful logs
+```
+
+You can also enable some useful logs
+
+```js
+
+const isuseless = require("is-useless").isuseless;
+
+console.log(isuseless(process.env.CREDIT_CARD_NUMBER)); // outputs some extremely useful logs
+```
+
+If you want it to run slower, use the third paremeter!
+
+```js
+
+const isuseless = require("is-useless").isuseless;
+
+console.log(isuseless(process.env.CREDIT_CARD_NUMBER, false, true)); // runs kind of slower
+```
+
 ## Support
 Arkanic#3976 on discord
 
 
 ## Updates
+
+### v1.4.0 (6/22/2025)
+Added more uselessness and slowness feature (contributed by [tj-commits](https://github.com/tj-commits))
 
 ### v1.2.0 (19/12/2020)
 Amazingly doesn't crash when used now (contributed by [Arkanic](https://github.com/Arkanic))
