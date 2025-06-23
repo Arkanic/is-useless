@@ -1,6 +1,6 @@
 {
   "name": "is-useless",
-  "version": "1.3.4",
+  "version": "1.4.0",
   "description": "Package to reflect on the state of npm",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,18 @@
   },
   "homepage": "https://github.com/Arkanic/is-useless#readme",
   "dependencies": {
+    "@not-js/not": "^1.0.0",
     "colors": "^1.4.0",
     "empty-string": "^1.1.1",
+    "false": "^0.0.4",
+    "get-intrinsic": "^1.3.0",
+    "is-nil": "^1.0.1",
+    "is-true": "^0.1.1",
     "logtoconsole": "^1.0.7",
-    "returndotjs": "^1.0.0"
+    "number-one-hundred": "^1.0.0",
+    "number-zero": "^1.0.3",
+    "returndotjs": "^1.0.0",
+    "the-number-one": "^1.0.1",
+    "true": "^0.0.4"
   }
 }
