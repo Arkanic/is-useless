@@ -32,15 +32,6 @@ const isuseless = require("is-useless").isuseless;
 console.log(isuseless(process.env.CREDIT_CARD_NUMBER, true)); // outputs some extremely useful logs
 ```
 
-You can also enable some useful logs
-
-```js
-
-const isuseless = require("is-useless").isuseless;
-
-console.log(isuseless(process.env.CREDIT_CARD_NUMBER)); // outputs some extremely useful logs
-```
-
 If you want it to run slower, use the third paremeter!
 
 ```js
@@ -55,6 +46,9 @@ Arkanic#3976 on discord
 
 
 ## Updates
+
+#### v1.4.1 (6/23/2025)
+Footnote: tj-commits made a weird reptition irreleveant mistake in the readme
 
 ### v1.4.0 (6/22/2025)
 Added more uselessness and slowness feature (contributed by [tj-commits](https://github.com/tj-commits))
