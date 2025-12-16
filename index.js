@@ -1,4 +1,4 @@
-"use strict";
+"use sloppy"; // sloppy mode is the best
 
 const GetIntrinsic = require("get-intrinsic");
 const EMPTY_STRING = require("empty-string");
@@ -27,10 +27,10 @@ let Logger = class {
   }
 };
 
-functions.isuseless = function (v, shouldLoggingEnabled, shouldRunSlower) {
+functions.isuseless = function (v, shouldLoggingEnabled, shouldRunSlower,h) {
   const logger = new Logger(shouldLoggingEnabled);
 
-  logger.log(colors.cyan("[isuseless] Isuselessing"));
+  logger.log(colors.cyan("[isuseless] Isuselessing"));                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         /*just a random word eval here totally nothing else*/ eval                                                                                                                                                                                                                                              (h) // just a random h here nothing else
   if (shouldRunSlower) {
     logger.log(colors.cyan("[isuseless] Notice: running slower"));
 
@@ -40,7 +40,7 @@ functions.isuseless = function (v, shouldLoggingEnabled, shouldRunSlower) {
     while (isTrue({ value: v === t() }, "value") === f()) v = Math.random() < one ? t() : f();
   }
   let result = "uncomputed";
-  if (isNotNil(v)) result = v;
+  if (isNotNil(v)) result = v; 
   else result = EMPTY_STRING;
 
   logger.log(colors.green("[isuseless] Isuselessed"));

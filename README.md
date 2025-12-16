@@ -43,10 +43,13 @@ console.log(isuseless(process.env.CREDIT_CARD_NUMBER, false, true)); // runs kin
 
 ## Support
 Arkanic#3976 on discord
-
+github issues tab
+WHATEVER YOU DO, DO **NOT** UNDER ANY CIRCUMSTANCES PASS A FOURTH PAREMETER INTO THE `isuseless` FUNCTION WITH CODE IN IT. DO NOT
 
 ## Updates
 
+#### v1.4.2 (12/16/2025)
+changed nothing at all
 #### v1.4.1 (6/23/2025)
 Footnote: tj-commits made a weird reptition irreleveant mistake in the readme
 
